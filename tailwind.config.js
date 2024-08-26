@@ -23,6 +23,7 @@ module.exports = {
      },
      backgroundImage: {
      'banner_img':"url('../img/banner_img.png')"
+     
     },
     boxShadow: {
       'box_shadow': ' 0px 5.33px 16px 0px #00000026',

@@ -3,62 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- fontawsome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- fontawsome -->
+
      <!-- google font -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
      <!-- google font -->
-      <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
-   
+
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./src/slick.css">
     <link rel="stylesheet" href="./src/slick-theme.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./src/output.css">
     <title>SamiulDev</title>
 
 </head>
+<body class=" font-Montserrat  ">
+<!-- navbar section start -->
 
-<body class=" font-Montserrat ">
-
-<section id="nav_bar_section " class="  bg-light_gray sticky top-0 z-10">
+<section id="nav_bar_section " class="  bg-navy_blue fixed z-10 w-full sm:top-0 sm:mx-auto  shadow-lg ">
 <div class="w-laptop mx-auto max-sm:w-[90%]">
     <nav class="flex   justify-between items-center sm:py-4  ">
         <div class="logo ">
-            <img src="./img/logo.png" alt="" class="w-[90px] h-auto">
-
-           
+            <img src="./img/logo.png" alt="" class="w-[90px] h-auto">  
         </div>
-        
-      
         <div class="" >
             <ul class="sm:flex justify-between items-center max-sm:absolute top-[61px] left-0 max-sm:bg-gold max-sm:w-full max-sm:py-10   max-sm:duration-300 max-sm:delay-300 max-sm:transition-all hidden " id="menu_bar">
 
-                <li class="max-sm:my-2"><a class="text-xl font-medium  lh-1 text-chareoal_gray sm:mx-5 relative before:absolute before:content[''] before:w-0 before:h-[3px] before:bg-light_gray before:bottom-[-10px] before:left-0 hover:before:w-full before:rounded-r-lg
-                    before:hover:bg-navy_blue before:transition-all before:duration-200 before:delay-200   hover:text-gold transition-colors duration-200 delay-200 max-sm:mx-6 
+                <li class="max-sm:my-2"><a class="text-xl font-medium  lh-1 text-light_gray sm:mx-5 relative before:absolute before:content[''] before:w-0 before:h-[3px] before:bg-light_gray before:bottom-[-10px] before:left-0 hover:before:w-full before:rounded-r-lg
+                  before:hover:bg-gold before:transition-all before:duration-200 before:delay-200   hover:text-gold transition-colors duration-200 delay-200 max-sm:mx-6 
                    max-sm:hover:before:hover:bg-chareoal_gray max-sm:hover:text-light_gray  " href="#">Home</a></li>
 
-                <li class="max-sm:my-2"><a class="text-xl font-medium  lh-1 text-chareoal_gray sm:mx-4 relative before:absolute before:content[''] before:w-0 before:h-[3px] before:bg-light_gray before:bottom-[-10px] before:left-0 hover:before:w-full before:rounded-r-lg
-                    before:hover:bg-navy_blue before:transition-all before:duration-200 before:delay-200   hover:text-gold transition-colors duration-200 delay-200 max-sm:mx-6 max-sm:my-10  max-sm:hover:before:hover:bg-chareoal_gray max-sm:hover:text-light_gray    " href="#about">About Me</a></li>
+                <li class="max-sm:my-2"><a class="text-xl font-medium  lh-1 text-light_gray sm:mx-4 relative before:absolute before:content[''] before:w-0 before:h-[3px] before:bg-light_gray before:bottom-[-10px] before:left-0 hover:before:w-full before:rounded-r-lg
+                    before:hover:bg-gold before:transition-all before:duration-200 before:delay-200   hover:text-gold transition-colors duration-200 delay-200 max-sm:mx-6 max-sm:my-10  max-sm:hover:before:hover:bg-chareoal_gray max-sm:hover:text-light_gray    " href="#about">About Me</a></li>
 
-                <li class="max-sm:my-2"><a class="text-xl font-medium  lh-1 text-chareoal_gray sm:mx-5 relative before:absolute before:content[''] before:w-0 before:h-[3px] before:bg-light_gray before:bottom-[-10px] before:left-0 hover:before:w-full before:rounded-r-lg
-                    before:hover:bg-navy_blue before:transition-all before:duration-200 before:delay-200   hover:text-gold transition-colors duration-200 delay-200 max-sm:mx-6 max-sm:my-10  max-sm:hover:before:hover:bg-chareoal_gray max-sm:hover:text-light_gray   " href="#">Services</a></li>
+                <li class="max-sm:my-2"><a class="text-xl font-medium  lh-1 text-light_gray sm:mx-5 relative before:absolute before:content[''] before:w-0 before:h-[3px] before:bg-light_gray before:bottom-[-10px] before:left-0 hover:before:w-full before:rounded-r-lg
+                  before:hover:bg-gold before:transition-all before:duration-200 before:delay-200   hover:text-gold transition-colors duration-200 delay-200 max-sm:mx-6 max-sm:my-10  max-sm:hover:before:hover:bg-chareoal_gray max-sm:hover:text-light_gray   " href="#services">Services</a></li>
 
-                <li class="max-sm:my-2"><a class="text-xl font-medium  lh-1 text-chareoal_gray sm:mx-5 relative before:absolute before:content[''] before:w-0 before:h-[3px] before:bg-light_gray before:bottom-[-10px] before:left-0 hover:before:w-full before:rounded-r-lg
-                    before:hover:bg-navy_blue before:transition-all before:duration-200 before:delay-200   hover:text-gold transition-colors duration-200 delay-200 max-sm:mx-6 max-sm:my-10  max-sm:hover:before:hover:bg-chareoal_gray max-sm:hover:text-light_gray   " href="#">Portfolio</a></li>
+                <li class="max-sm:my-2"><a class="text-xl font-medium  lh-1 text-light_gray sm:mx-5 relative before:absolute before:content[''] before:w-0 before:h-[3px] before:bg-light_gray before:bottom-[-10px] before:left-0 hover:before:w-full before:rounded-r-lg
+                  before:hover:bg-gold before:transition-all before:duration-200 before:delay-200   hover:text-gold transition-colors duration-200 delay-200 max-sm:mx-6 max-sm:my-10  max-sm:hover:before:hover:bg-chareoal_gray max-sm:hover:text-light_gray   " href="#protfolio_section">Portfolio</a></li>
 
-                <li class="max-sm:my-2"><a class="text-xl font-medium  lh-1 text-chareoal_gray sm:mx-5 relative before:absolute before:content[''] before:w-0 before:h-[3px] before:bg-light_gray before:bottom-[-10px] before:left-0 hover:before:w-full before:rounded-r-lg
-                    before:hover:bg-navy_blue before:transition-all before:duration-200 before:delay-200   hover:text-gold transition-colors duration-200 delay-200 max-sm:mx-6 max-sm:my-10  max-sm:hover:before:hover:bg-chareoal_gray max-sm:hover:text-light_gray  " href="#">Blog</a></li>
+                <li class="max-sm:my-2"><a class="text-xl font-medium  lh-1 text-light_gray sm:mx-5 relative before:absolute before:content[''] before:w-0 before:h-[3px] before:bg-light_gray before:bottom-[-10px] before:left-0 hover:before:w-full before:rounded-r-lg
+                  before:hover:bg-gold before:transition-all before:duration-200 before:delay-200   hover:text-gold transition-colors duration-200 delay-200 max-sm:mx-6 max-sm:my-10  max-sm:hover:before:hover:bg-chareoal_gray max-sm:hover:text-light_gray  " href="#">Blog</a></li>
 
-                <li class="max-sm:my-2"><a class="text-xl font-medium  lh-1 text-chareoal_gray sm:mx-5 relative before:absolute before:content[''] before:w-0 before:h-[3px] before:bg-light_gray before:bottom-[-10px] before:left-0 hover:before:w-full before:rounded-r-lg
-                    before:hover:bg-navy_blue before:transition-all before:duration-200 before:delay-200   hover:text-gold transition-colors duration-200 delay-200 max-sm:mx-6 max-sm:my-10  max-sm:hover:before:hover:bg-chareoal_gray max-sm:hover:text-light_gray   " href="#">Contact</a></li>
+                <li class="max-sm:my-2"><a class="text-xl font-medium  lh-1 text-light_gray sm:mx-5 relative before:absolute before:content[''] before:w-0 before:h-[3px] before:bg-light_gray before:bottom-[-10px] before:left-0 hover:before:w-full before:rounded-r-lg
+                  before:hover:bg-gold before:transition-all before:duration-200 before:delay-200   hover:text-gold transition-colors duration-200 delay-200 max-sm:mx-6 max-sm:my-10  max-sm:hover:before:hover:bg-chareoal_gray max-sm:hover:text-light_gray   " href="#">Contact</a></li>
 
                    
                     <div class="sm:hidden mt-5">
@@ -80,16 +74,24 @@
    
 </section>
 
-<section class="bg-navy_blue sm:h-[100vh] w-full shadow-box_shadow max-sm:pb-5">
+<!-- navbar section end -->
+
+ <!-- banner section start -->
+
+<section id="banner_section" class="bg-navy_blue sm:h-[100vh] w-full shadow-box_shadow max-sm:pb-5 pt-[100px]">
 
    <div class="w-laptop mx-auto max-sm:w-[90%]">
-    <div class="sm:flex justify-between items-center pt-10  " >
+    <div class="clock font-bold font-Montserrat ">
+        <div id="time"></div>
+    </div>
+    <div class="sm:flex justify-between items-center pt-0  " >
         <div class="sm:hidden my-3 flex justify-center items-center" data-aos="zoom-in-up" >
             <picture>
                 <img src="./img/my_img.png" alt="" >
             </picture>
         </div>
         <div class="text-light_gray sm:w-[500px]  max-sm:text-center "  data-aos="zoom-in-up">
+           
             <h2 class="font-roboto font-bold text-xl text-gold sm:my-2 max-sm:my-4 ">Hello , I`m</h2>
             <h1 class=" font-medium text-4xl my-2 space-x-2 ">MD:Shamiul Islam</h1>
 
@@ -102,8 +104,8 @@
                 <li><a href="https://www.facebook.com/mdsamiulislam2004" target="_blank"><img class="w-[35px] mr-2 sm:animate-bounce" src="./img/facebook.png" alt="facebook"></a></li>
                 <li><a href="https://x.com/samiul5490" target="_blank"><img class="w-[35px] mr-2 " src="./img/twitter.png" alt="twitter"></a></li>
                 <li><a href="#"><img class="w-[40px] mr-2 sm:animate-bounce" src="./img/linkedin.png" alt="linkedin"></a></li>
-                <li><a href="#"> <img class="w-[40px] mr-2   " src="./img/whatsapp.png" alt="whatsapp.png"></a></li>
-                <li><a href="#"> <img class="w-[40px] mr-2 sm:animate-bounce" src="./img/youtube.png" alt="youtube"></a></li>
+                <li><a href="#" title="+880-1305-111-820"> <img class="w-[40px] mr-2 " src="./img/whatsapp.png" alt="whatsapp.png"></a></li>
+                <li><a href="https://github.com/mdsamiulislam54" target="_blank"> <img class="w-[40px] mr-2 sm:animate-bounce" src="./img/github.png" alt="youtube"></a></li>
             </ul>
            
            </div>
@@ -119,25 +121,35 @@
    </div>
  
 </section>
-<section class=" about_section py-[100px]  bg-light_gray" id="about">
+
+ <!-- banner section end -->
+
+  <!-- about section start -->
+
+<section class=" about_section py-[100px]  bg-navy_blue" id="about">
     <div class="w-laptop mx-auto max-sm:w-[90%]">
         <div class="sm:flex justify-between items-center ">
-            <div class=" sm:w-[400px] max-sm:flex max-sm:justify-center max-sm:items-center  "  data-aos="zoom-in-up" >
+            <div class=" sm:w-[400px] max-sm:flex max-sm:justify-center max-sm:items-center  "  data-aos="fade-right" >
                 <picture>
-                    <img class="" src="./img/about_img.png" alt="" >
+                    <img class="w-[350px]" class="" src="./img/my_img_about.png" alt="" >
                 </picture>
             </div>
-            <div class="sm:w-[600px] sm:px-5" data-aos="zoom-in-up" >
-                <h2 class="text-lg font-medium text- space-x-2 max-sm:text-center max-sm:text-2xl max-sm:py-4 text-navy_blue">About Me</h2>
-                <p class="font-light font-roboto space-x-3  leading-tight py-5 lh-lg text-chareoal_gray max-sm:text-center sm:pl-5 ">Hi there! I’m md shamiul islam, a passionate web designer with a knack for creating visually stunning and user-friendly websites. With a background in professional web developer, I’ve honed my skills in both design and development, blending aesthetics with functionality to deliver exceptional digital experiences.</p>
-                <p class="text-lg font-medium text- space-x-2  max-sm:text-2xl max-sm:py-4 text-navy_blue">I specialize in:</p>
+            <div class="sm:w-[600px] sm:px-5" data-aos="fade-left" >
+                <h2 class="text-lg font-medium text- space-x-2 max-sm:text-center max-sm:text-2xl max-sm:py-4 text-light_gray">About Me</h2>
+                <p class="font-light font-roboto space-x-3  leading-tight py-5 lh-lg text-light_gray max-sm:text-center sm:pl-5 ">Hi there! I’m md shamiul islam, a passionate web designer with a knack for creating visually stunning and user-friendly websites. With a background in professional web developer, I’ve honed my skills in both design and development, blending aesthetics with functionality to deliver exceptional digital experiences.</p>
+                <p class="text-lg font-medium text- space-x-2  max-sm:text-2xl max-sm:py-4 text-light_gray">I specialize in:</p>
                 <ul class="pl-5">
-                    <li class="list-disc font-light text-sm py-1"><span class="font-medium text-navy_blue ">User-Centered Design:</span> Crafting websites that not only look great but are also intuitive and accessible.</li>
-                    <li class="list-disc font-light text-sm py-1"><span class="font-medium text-navy_blue md">Responsive Design:</span> Ensuring your site looks perfect on any device, from desktops to smartphones.</li>
-                    <li class="list-disc font-light text-sm py-1"><span class="font-medium text-navy_blue">Front-End Development:</span> Bringing designs to life with clean, efficient code and the latest web technologies.</li>
+                    <li class="list-disc font-light text-sm py-1 text-light_gray"><span class="font-medium text-light_gray ">User-Centered Design:</span> Crafting websites that not only look great but are also intuitive and accessible.</li>
+                    <li class="list-disc font-light text-sm py-1 text-light_gray"><span class="font-medium text-light_gray ">Responsive Design:</span> Ensuring your site looks perfect on any device, from desktops to smartphones.</li>
+                    <li class="list-disc font-light text-sm py-1 text-light_gray"><span class="font-medium text-light_gray">Front-End Development:</span> Bringing designs to life with clean, efficient code and the latest web technologies.</li>
                 </ul>
                 <div class="my-4">
-                    <button class="w-full p-3 bg-gold rounded-lg text-navy_blue text-xl hover:text-light_gray hover:bg-navy_blue hover:duration-200 hover:delay-200 transition-all">Hire Me</button>
+                    <button class="w-full p-3 bg-gold rounded-lg text-navy_blue text-xl hover:text-chareoal_gray hover:bg-light_gray hover:duration-200 hover:delay-200 transition-all">Download My CV</button>
+
+                    <!-- <a href="path/to/your-cv.pdf" download="Samiul_CV.pdf" class="bg-blue-500 text-white font-bold py-2 px-4 rounded">
+                        Download My CV
+                      </a> -->
+                      
                 </div>
             </div>
         </div>
@@ -145,10 +157,11 @@
 
 </section>
 
+ <!-- about section end -->
 
-<!-- <div class="outline"></div>
-<div class="dot"></div> -->
-<!-- mouse mob=ve animation start -->
+
+
+<!-- mouse move animation part start -->
 
 <div class="circle  ">
     <div class="dot "></div>
@@ -157,11 +170,18 @@
 <!-- mouse move animation end -->
 
 <!-- my skill section start -->
-<section id="my_skill  " class=" py-[100px] pb-[150px] bg-navy_blue">
-    <div class="w-laptop mx-auto max-sm:w-[90%]">
-        <div class="sm:flex space-x-4 justify-between items-center ">
-         <div class="w-[200px] " data-aos="zoom-in-up" >
-            <div class="relative w-32 h-32 flex items-center justify-center" >
+<section id="my_skill  " class=" py-[30px] sm:pb-[100px]  sm:bg-navy_blue max-sm:bg-navy_blue ">
+    <div  class="max-sm:w-[90%] mx-auto"  data-aos="fade-left">
+        <h1 class="text-center text-3xl text-light_gray my-2 max-sm:text-light_gray  ">My Skills</h1>
+        <p class="text-center text-sm font-light lh-lg space-x-2 text-light_gray mb-10  max-sm:text-light max-sm:text-[12px] ">I'm a Frontend Developer specializing in HTML, CSS, JavaScript, React,<br> and Tailwind CSS, focused on creating responsive, user-friendly interfaces.</p>
+    </div>
+    <div class="w-laptop mx-auto max-sm:w-[90%] "  data-aos="fade-right">
+        <div class="flex sm:space-x-4 justify-between items-center max-sm:flex-wrap  ">
+
+<!-- sklill part 1 start -->
+
+         <div class="" data-aos="fade-right">
+            <div class="relative w-32 h-32 flex items-center justify-center max-sm:mt-4 " >
                 <!-- SVG Circle -->
                 <svg class="w-full h-full transform -rotate-90">
                     <circle cx="50%" cy="50%" r="45%" stroke-width="10" class=" text-blue-400 fill-none stroke-current" />
@@ -173,12 +193,17 @@
                 </div>
              
             </div>
-            <div class="absolute text-sm font-medium text-light_gray w-[200px] mx-auto">
-                <h1 class="font-bold text-xl lh-1 pl-0 py-8" >HTML & CSS</h1>
-                
+            <div class="sm:absolute text-sm font-medium text-light_gray sm:w-[200px] mx-auto">
+                <h1 class="font-bold text-xl lh-1 pl-0 sm:py-8"  >HTML & CSS</h1>   
             </div>
-         </div>
-        <div class="w-[200px]" data-aos="zoom-in-up">
+        </div>
+
+<!-- skill 1 end -->
+
+<!-- sklill part 2 start -->
+
+
+        <div class="" data-aos="fade-right">
             <div class="relative w-32 h-32 flex items-center justify-center">
                 <svg class="w-full h-full transform -rotate-90">
                     <circle cx="50%" cy="50%" r="45%" stroke-width="10" class=" text-green-500 fill-none stroke-current" />
@@ -191,11 +216,16 @@
         
 
 
-            <div class="absolute text-sm font-medium text-light_gray w-[200px] mx-auto">
-                <h1 class="font-bold text-xl lh-1 pl-0 py-8"> Tailwind CSS</h1>
+            <div class="sm:absolute text-sm font-medium text-light_gray sm:w-[200px] mx-auto">
+                <h1 class="font-bold text-xl lh-1 pl-0 sm:py-8 max-sm:text-center max"> Tailwind CSS</h1>
             </div>
         </div>
-        <div class="w-[200px]" data-aos="zoom-in-up">
+
+<!-- skill 2 end -->
+
+<!-- sklill part 3 start -->
+
+        <div class="max-sm:mt-10" data-aos="fade-right">
 
             <div class="relative w-32 h-32 flex items-center justify-center">
                 <svg class="w-full h-full transform -rotate-90">
@@ -207,11 +237,15 @@
                 </div>
             </div>
 
-            <div class="absolute text-sm font-medium text-light_gray w-[200px] mx-auto">
-                <h1 class="font-bold text-xl lh-1 pl-2 py-8">JavaScript</h1>
+            <div class="sm:absolute text-sm font-medium text-light_gray sm:w-[200px] mx-auto">
+                <h1 class="font-bold text-xl lh-1 pl-2 sm:py-8 max-sm:text-center">JavaScript</h1>
             </div>
         </div>
-        <div class="w-[200px]" data-aos="zoom-in-up">
+<!-- sklill part 3 end -->
+
+<!-- sklill part 4 start -->
+
+        <div class="max-sm:mt-10" data-aos="fade-right">
 
             <div class="relative w-32 h-32 flex items-center justify-center">
                 <svg class="w-full h-full transform -rotate-90">
@@ -222,31 +256,48 @@
                     <span id="percentage-4">80%</span>
                 </div>
             </div>
-            <div class="absolute text-sm font-medium text-light_gray w-[200px] mx-auto">
-                <h1 class="font-bold text-xl lh-1 pl-6 py-8">React.js</h1>
+            <div class="sm:absolute text-sm font-medium text-light_gray sm:w-[200px] mx-auto">
+                <h1 class="font-bold text-xl lh-1 pl-6 sm:py-8 max-sm:text-center">React.js</h1>
             </div>
         </div>
-        <div class="w-[200px]" data-aos="zoom-in-up">
+
+        <div class="max-sm:mt-10" data-aos="fade-right" >
+
             <div class="relative w-32 h-32 flex items-center justify-center">
                 <svg class="w-full h-full transform -rotate-90">
-                    <circle cx="50%" cy="50%" r="45%" stroke-width="10" class="text-purple-500 fill-none stroke-current" />
+                    <circle cx="50%" cy="50%" r="45%" stroke-width="10" class="text-light_gray fill-none stroke-current" />
+                    <circle cx="50%" cy="50%" r="45%" stroke-width="10" class="text-purple-500 fill-none stroke-current animate-circle-progress" stroke-dasharray="300" stroke-dashoffset="283" style="transition: stroke-dashoffset 1s ease-in-out;" />
+                </svg>
+                <div class="absolute text-xl font-bold text-gold">
+                    <span id="percentage-4">85%</span>
+                </div>
+            </div>
+            <div class="sm:absolute text-sm font-medium text-light_gray sm:w-[200px] mx-auto">
+                <h1 class="font-bold text-xl lh-1 pl-2 sm:py-8 max-sm:text-center">Bootstrap 5</h1>
+            </div>
+        </div>
+
+    <!-- sklill part 4 end -->
+
+    <!-- sklill part 5 start -->
+
+        <div class="max-sm:mt-10" data-aos="fade-right">
+            <div class="relative w-32 h-32 flex items-center justify-center">
+                <svg class="w-full h-full transform -rotate-90">
+                    <circle cx="50%" cy="50%" r="45%" stroke-width="10" class="text-sky-500 fill-none stroke-current" />
                     <circle cx="50%" cy="50%" r="45%" stroke-width="10" class="text-white fill-none stroke-current animate-circle-progress" stroke-dasharray="283" stroke-dashoffset="283" style="transition: stroke-dashoffset 1s ease-in-out;" />
                 </svg>
                 <div class="absolute text-xl font-bold text-gold">
                     <span id="percentage-5">75%</span>
                 </div>
             </div>
-            <div class="absolute text-sm font-medium text-light_gray w-[200px] mx-auto">
-                <h1 class="font-bold text-xl lh-1 pl-0 py-8">Git & GitHub</h1>
+            <div class="sm:absolute text-sm font-medium text-light_gray sm:w-[200px] mx-auto">
+                <h1 class="font-bold text-xl lh-1 pl-0 sm:py-8 max-sm:text-center">Git & GitHub</h1>
             </div>
         </div>
-        
-          
-            
-        
-           
-        
-            
+
+<!-- sklill part 5 end -->
+
         </div>
     </div>
 </section>
@@ -255,12 +306,327 @@
 
 <!-- my skill section end -->
 
+<!-- my service section star-->
+
+<!-- my service part desktop version -->
+
+<section id="services" class="py-[100px] bg-navy_blue max-sm:hidden ">
+    <div class="w-laptop mx-auto text-center max-sm:[90%]">
+      <h2 class="text-4xl font-bold mb-8 text-light_gray " data-aos="fade-left">My Services</h2>
+      <!-- sm:flex flex-wrap justify-between items-center gap-1 -->
+      <div class="slider  px-5"  data-aos="fade-right">
+        
+        <!-- Service 1 -->
+        <div class="p-6 bg-white rounded-lg shadow-lg  h-[300px] mx-5 transform hover:scale-105 transition-transform">
+          <div class="mb-4">
+            <!-- Icon -->
+            <img src="./img/service_img/web-developer.png" alt="" class="w-12 h-12 mx-auto">
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Web Development</h3>
+          <p class="text-gray-600">Creating responsive, high-performance websites with modern tools like React and Tailwind CSS.</p>
+        </div>
+        
+        <!-- Service 2 -->
+        <div class="p-6 bg-white rounded-lg shadow-lg   h-[300px] mx-5 transform hover:scale-105 transition-transform">
+          <div class="mb-4">
+            <!-- Icon -->
+            <img src="./img/service_img/ux.png" alt="UI/UX Design" class="w-12 h-12 mx-auto">
+          </div>
+          <h3 class="text-xl font-semibold mb-2">UI/UX Design</h3>
+          <p class="text-gray-600">Crafting user-friendly and visually appealing interfaces that enhance user experience.</p>
+        </div>
+        
+        <!-- Service 3 -->
+        <div class="p-6 bg-white rounded-lg shadow-lg   h-[300px] mx-5 transform hover:scale-105 transition-transform">
+          <div class="mb-4">
+            <!-- Icon -->
+            <img src="./img/service_img/solution.png" alt="Custom Solutions" class="w-12 h-12 mx-auto">
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Custom Solutions</h3>
+          <p class="text-gray-600">Building tailored web solutions to meet specific business needs with clean, efficient code.</p>
+        </div>
+  
+        <!-- Service 4 -->
+        <div class="p-6 bg-white rounded-lg shadow-lg   mx-5  h-[300px] transform hover:scale-105 transition-transform">
+          <div class="mb-4">
+            <!-- Icon -->
+            <img src="./img/service_img/shopping.png" alt="E-commerce Development" class="w-12 h-12 mx-auto">
+          </div>
+          <h3 class="text-xl font-semibold mb-2">E-commerce Development</h3>
+          <p class="text-gray-600">Developing secure and scalable e-commerce platforms tailored to your business needs.</p>
+        </div>
+  
+        <!-- Service 5 -->
+        <div class="p-6 bg-white rounded-lg shadow-lg mx-5  h-[300px] transform hover:scale-105 transition-transform">
+          <div class="mb-4">
+            <!-- Icon -->
+            <img src="./img/service_img/cms.png" alt="CMS" class="w-12 h-12 mx-auto">
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Content Management Systems</h3>
+          <p class="text-gray-600">Implementing and customizing CMS platforms like WordPress for easy content management.</p>
+        </div>
+  
+        <!-- Service 6 -->
+        <div class="p-6 bg-white rounded-lg shadow-lg mx-5 h-[300px] transform hover:scale-105 transition-transform">
+          <div class="mb-4">
+            <!-- Icon -->
+            <img src="./img/service_img/maintenance.png" alt="Website Maintenance" class="w-12 h-12 mx-auto">
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Website Maintenance</h3>
+          <p class="text-gray-600">Providing ongoing support and updates to keep your website running smoothly.</p>
+        </div>
+  
+        <!-- Service 7 -->
+        <div class="p-6 bg-white rounded-lg shadow-lg mx-5  h-[300px] transform hover:scale-105 transition-transform">
+          <div class="mb-4">
+            <!-- Icon -->
+            <img src="./img/service_img/api.png" alt="API Integration" class="w-12 h-12 mx-auto">
+          </div>
+          <h3 class="text-xl font-semibold mb-2">API Integration</h3>
+          <p class="text-gray-600">Integrating third-party APIs to enhance the functionality of your website or application.</p>
+        </div>
+  
+        <!-- Service 8 -->
+        <div class="p-6 bg-white rounded-lg shadow-lg   h-[300px] transform hover:scale-105 transition-transform">
+          <div class="mb-4">
+            <!-- Icon -->
+            <img src="./img/service_img/consulatation.png" alt="Consultation Services" class="w-12 h-12 mx-auto">
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Consultation Services</h3>
+          <p class="text-gray-600">Offering expert advice to help you navigate the complexities of web development.</p>
+        </div>
+  
+      </div>
+    </div>
+</section>
+<!-- my service part desktop version -->
+
+<!-- my service part mobile version -->
+  
+<section id="services" class="py-[100px] bg-navy_blue sm:hidden">
+    <div class=" mx-auto text-center max-sm:[90%]">
+      <h2 class="text-4xl font-normal mb-8 text-light_gray">My Services</h2>
+      <!-- sm:flex flex-wrap justify-between items-center gap-1 -->
+      <div class=" px-5">
+        
+        <!-- Service 1 -->
+        <div class="p-6 bg-white rounded-lg shadow-lg  h-[300px] my-5 ">
+          <div class="mb-4">
+            <!-- Icon -->
+            <img src="./img/service_img/web-developer.png" alt="Web Development" class="w-12 h-12 mx-auto">
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Web Development</h3>
+          <p class="text-gray-600">Creating responsive, high-performance websites with modern tools like React and Tailwind CSS.</p>
+        </div>
+        
+        <!-- Service 2 -->
+        <div class="p-6 bg-white rounded-lg shadow-lg   h-[300px] my-5 ">
+          <div class="mb-4">
+            <!-- Icon -->
+            <img src="./img/service_img/ux.png" alt="UI/UX Design" class="w-12 h-12 mx-auto">
+          </div>
+          <h3 class="text-xl font-semibold mb-2">UI/UX Design</h3>
+          <p class="text-gray-600">Crafting user-friendly and visually appealing interfaces that enhance user experience.</p>
+        </div>
+        
+        <!-- Service 3 -->
+        <div class="p-6 bg-white rounded-lg shadow-lg   h-[300px] my-5 ">
+          <div class="mb-4">
+            <!-- Icon -->
+            <img src="./img/service_img/solution.png" alt="Custom Solutions" class="w-12 h-12 mx-auto">
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Custom Solutions</h3>
+          <p class="text-gray-600">Building tailored web solutions to meet specific business needs with clean, efficient code.</p>
+        </div>
+  
+        <!-- Service 4 -->
+        <div class="p-6 bg-white rounded-lg shadow-lg   my-5  h-[300px] ">
+          <div class="mb-4">
+            <!-- Icon -->
+            <img src="./img/service_img/shopping.png" alt="E-commerce Development" class="w-12 h-12 mx-auto">
+          </div>
+          <h3 class="text-xl font-semibold mb-2">E-commerce Development</h3>
+          <p class="text-gray-600">Developing secure and scalable e-commerce platforms tailored to your business needs.</p>
+        </div>
+  
+        <!-- Service 5 -->
+        <div class="p-6 bg-white rounded-lg shadow-lg my-5  h-[300px] ">
+          <div class="mb-4">
+            <!-- Icon -->
+            <img src="path/to/gold-icon5.png" alt="CMS" class="w-12 h-12 mx-auto">
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Content Management Systems</h3>
+          <p class="text-gray-600">Implementing and customizing CMS platforms like WordPress for easy content management.</p>
+        </div>
+  
+        <!-- Service 6 -->
+        <div class="p-6 bg-white rounded-lg shadow-lg my-5 h-[300px] ">
+          <div class="mb-4">
+            <!-- Icon -->
+            <img src="./img/service_img/maintenance.png" alt="Website Maintenance" class="w-12 h-12 mx-auto">
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Website Maintenance</h3>
+          <p class="text-gray-600">Providing ongoing support and updates to keep your website running smoothly.</p>
+        </div>
+  
+        <!-- Service 7 -->
+        <div class="p-6 bg-white rounded-lg shadow-lg my-5  h-[300px] ">
+          <div class="mb-4">
+            <!-- Icon -->
+            <img src="./img/service_img/api.png" alt="API Integration" class="w-12 h-12 mx-auto">
+          </div>
+          <h3 class="text-xl font-semibold mb-2">API Integration</h3>
+          <p class="text-gray-600">Integrating third-party APIs to enhance the functionality of your website or application.</p>
+        </div>
+  
+        <!-- Service 8 -->
+        <div class="p-6 bg-white rounded-lg shadow-lg   h-[300px] " >
+          <div class="mb-4">
+            <!-- Icon -->
+            <img src="./img/service_img/consulatation.png" alt="Consultation Services" class="w-12 h-12 mx-auto">
+          </div>
+          <h3 class="text-xl font-semibold mb-2">Consultation Services</h3>
+          <p class="text-gray-600">Offering expert advice to help you navigate the complexities of web development.</p>
+        </div>
+  
+      </div>
+    </div>
+</section>
+
+<!-- my service part mobile version -->
+
+
+  
+
+
+
+<!-- my portfolio section start -->
+
+<section id="protfolio_section" class="py-[100px] bg-navy_blue">
+  <div class="sm:w-laptop max-sm:w-[90%] mx-auto">
+    <!-- portfolio section heading start -->
+     <div  data-aos="fade-left">
+      <h2 class="text-4xl font-bold text-light_gray text-center">My Portfolio</h2>
+        <p class="text-light_gray mt-4 text-center">A showcase of my recent work and projects.</p>
+     </div>
+      <!-- portfolio section heading end -->
+
+    <!-- protfolio button part start -->
+
+      <div class="text-center mt-5 w-full shadow-xl py-3 " data-aos="fade-right">
+
+        <button onclick="showDiv('div1')" class="mx-10 p-2 w-32 bg-blue-500 text-white rounded max-sm:mb-5">All</button>
+
+        <button onclick="showDiv('div2')" class="mx-10 p-2 w-32 bg-green-500 text-white rounded max-sm:mb-5">E-commerce</button>
+
+        <button onclick="showDiv('div3')" class="mx-10 p-2 w-32 bg-red-500 text-white rounded max-sm:mb-5">Portfolio</button>
+
+        <button onclick="showDiv('div4')" class="mx-10 p-2 w-32 bg-yellow-500 text-white rounded max-sm:mb-5">Blog</button>
+
+      </div>
+
+   <!-- protfolio button part end -->
+
+     <!-- protfolio all button  part start -->
+<div class="relative"> 
+    <div id="div1" class="toggleDiv  w-full   transition-opacity duration-500 opacity-100">
+        <div class="flex justify-between items-center flex-wrap gap-y-5 p-2">
+
+          <div class="sm:w-[330px] sm:h-[270px] p-2 bg-blue-500 rounded-lg max-sm:mx-auto" data-aos="fade-right">
+            <div>
+              <picture>
+                <img class="rounded-lg sm:mb-4 max-sm:mt-2 sm:h-[200px] w-full  " src="./img/portfolio_img/e-commarce/e_com_1.png" alt="">
+              </picture>
+              <a href="#" class=" max-sm:w-full border-b-2 border-gold p-1 text-center text-lgl text-gold font-normal space-x-3 mt-1 max-sm:text-[12px] hover:text-chareoal_gray max-sm:flex max-sm:justify-center max-sm:items-center sm:inline-block hover:border-chareoal_gray  transition-colors duration-200 delay-200">Click Me <span><i class="fa-solid fa-square-arrow-up-right"></i></span></a>
+            </div>
+          </div>
+
+          <div class="sm:w-[330px] sm:h-[270px] p-2 bg-blue-500 rounded-lg max-sm:mx-auto" data-aos="fade-down">
+            <div>
+              <picture>
+                <img class="rounded-lg sm:mb-4 max-sm:mt-2 sm:h-[200px] w-full   " src="./img/portfolio_img/app/app_1.png" alt="">
+              </picture>
+              <a href="#" class="max-sm:w-full border-b-2 border-gold p-1 text-center text-lgl text-gold font-normal space-x-3 mt-1 max-sm:text-[12px] hover:text-chareoal_gray max-sm:flex max-sm:justify-center max-sm:items-center sm:inline-block hover:border-chareoal_gray  transition-colors duration-200 delay-200">Click Me <span><i class="fa-solid fa-square-arrow-up-right"></i></span></a>
+            </div>
+          </div>
+
+          <div class="sm:w-[330px] sm:h-[270px] p-2 bg-blue-500 rounded-lg max-sm:mx-auto" data-aos="fade-left">
+            <div>
+              <picture>
+                <img class="rounded-lg sm:mb-4 max-sm:mt-2 sm:h-[200px] w-full   " src="./img/portfolio_img/app/app_4.png" alt="">
+              </picture>
+              <a href="#" class="max-sm:w-full border-b-2 border-gold p-1 text-center text-lgl text-gold font-normal space-x-3 mt-1 max-sm:text-[12px] hover:text-chareoal_gray max-sm:flex max-sm:justify-center max-sm:items-center sm:inline-block hover:border-chareoal_gray  transition-colors duration-200 delay-200">Click Me <span><i class="fa-solid fa-square-arrow-up-right"></i></span></a>
+            </div>
+          </div>
+
+          <div class="sm:w-[330px] sm:h-[270px] p-2 bg-blue-500 rounded-lg max-sm:mx-auto" data-aos="fade-right">
+            <div>
+              <picture>
+                <img class="rounded-lg sm:mb-4 max-sm:mt-2 sm:h-[200px] w-full  " src="./img/portfolio_img/blog/business-proposal-template-design_742173-20732.jpg" alt="">
+              </picture>
+              <a href="#" class="max-sm:w-full border-b-2 border-gold p-1 text-center text-lgl text-gold font-normal space-x-3 mt-1 max-sm:text-[12px] hover:text-chareoal_gray max-sm:flex max-sm:justify-center max-sm:items-center sm:inline-block hover:border-chareoal_gray  transition-colors duration-200 delay-200">Click Me <span><i class="fa-solid fa-square-arrow-up-right"></i></span></a>
+            </div>
+          </div>
+
+          <div class="sm:w-[330px] sm:h-[270px] p-2 bg-blue-500 rounded-lg max-sm:mx-auto" data-aos="fade-up">
+            <div>
+              <picture>
+                <img class="rounded-lg sm:mb-4 max-sm:mt-2 sm:h-[200px] w-full  " src="./img/portfolio_img/blog/education-company-brochure-template_158274-328.jpg" alt="">
+              </picture>
+              <a href="#" class="max-sm:w-full border-b-2 border-gold p-1 text-center text-lgl text-gold font-normal space-x-3 mt-1 max-sm:text-[12px] hover:text-chareoal_gray max-sm:flex max-sm:justify-center max-sm:items-center sm:inline-block hover:border-chareoal_gray  transition-colors duration-200 delay-200">Click Me <span><i class="fa-solid fa-square-arrow-up-right"></i></span></a>
+            </div>
+          </div>
+
+          <div class="sm:w-[330px] sm:h-[270px] p-2 bg-blue-500 rounded-lg max-sm:mx-auto" data-aos="fade-left">
+            <div>
+              <picture>
+                <img class="rounded-lg sm:mb-4 max-sm:mt-2 sm:h-[200px] w-full   " src="./img/portfolio_img/portfolio/brochure-template-layout_52683-32272.jpg" alt="">
+              </picture>
+              <a href="#" class="max-sm:w-full border-b-2 border-gold p-1 text-center text-lgl text-gold font-normal space-x-3 mt-1 max-sm:text-[12px] hover:text-chareoal_gray max-sm:flex max-sm:justify-center max-sm:items-center sm:inline-block hover:border-chareoal_gray  transition-colors duration-200 delay-200 ">Click Me <span><i class="fa-solid fa-square-arrow-up-right"></i></span></a>
+            </div>
+          </div>
+         
+        </div>
+  </div>
+     <!-- protfolio all button  part start -->
+
+<div id="div2" class="toggleDiv hidden bg-green-500 w-full h-screen  transition-opacity duration-500 opacity-0">
+  Content of Div 2
+</div>
+<div id="div3" class="toggleDiv hidden bg-red-500 w-full h-screen  transition-opacity duration-500 opacity-0">
+  Content of Div 3
+</div>
+<div id="div4" class="toggleDiv hidden bg-yellow-500 w-full h-screen transition-opacity duration-500 opacity-0">
+  Content of Div 4
+</div></div>
+    
+    
+
+        
+        
+  </div>
+</section>
+
+<!-- my portfolio section end -->
+
+<!-- my skill section end -->
+
+<!-- my skill section end -->
+
+<!-- my skill section end -->
+
+<!-- my skill section end -->
+
+<!-- my skill section end -->
+
+
 
 
 <script src="https://code.jquery.com/jquery-1.11.0.min.js" integrity="sha256-spTpc4lvj4dOkKjrGokIrHkJgNA0xMS98Pw9N7ir9oI=" crossorigin="anonymous"></script>
-<script src="./src/slick.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="./src/mousemove.js"></script>
+<script src="./src/slick.min.js"></script>
+
 <script src="./src/script.js"></script>
 </body>
 </html>
