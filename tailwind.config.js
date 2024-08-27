@@ -22,7 +22,11 @@ module.exports = {
       'all_liner':'all liner 0.4s'
      },
      backgroundImage: {
-     'banner_img':"url('../img/banner_img.png')"
+     'banner_img':"url('../img/banner_img.png')",
+     'blog_img_1':"url('../img/blog_img/blog_img_1.jpg')",
+     'blog_img_2':"url('../img/blog_img/blog_img_2.jpg')",
+     'blog_img_3':"url('../img/blog_img/blog_img_3.jpg')",
+     'blog_img_5':"url('../img/blog_img/blog_img_5.jpg')"
      
     },
     boxShadow: {
