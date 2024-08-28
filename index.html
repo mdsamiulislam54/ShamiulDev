@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="overflow-x-hidden">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,18 +19,18 @@
     <link rel="stylesheet" href="./src/slick.css">
     <link rel="stylesheet" href="./src/slick-theme.css">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./src/input.css">
     <title>SamiulDev</title>
 
 </head>
-<body class=" font-Montserrat  ">
+<body class=" font-Montserrat overflow-hidden  ">
 <!-- navbar section start -->
 
-<section id="nav_bar_section " class="  bg-navy_blue fixed z-10 w-full sm:top-0 sm:mx-auto  shadow-lg ">
+<section id="nav_bar_section " class="  bg-navy_blue fixed z-10 w-100 top-0 mx-auto  shadow-lg ">
 <div class="w-laptop mx-auto max-sm:w-[90%]">
-    <nav class="flex   justify-between items-center sm:py-4  ">
+    <nav class="flex   justify-between items-center sm:py-4 max-sm:w-[90%] ">
         <div class="logo ">
-            <img src="./img/logo.png" alt="" class="w-[90px] h-auto">  
+            <a href="#home"><img src="./img/logo.png" alt="" class="w-[90px] h-auto"> </a> 
         </div>
         <div class="" >
             <ul class="sm:flex justify-between items-center max-sm:absolute top-[61px] left-0 max-sm:bg-gold max-sm:w-full max-sm:py-10   max-sm:duration-300 max-sm:delay-300 max-sm:transition-all hidden " id="menu_bar">
@@ -78,9 +78,10 @@
 
  <!-- banner section start -->
 
-<section id="banner_section" class="bg-navy_blue sm:h-[100vh] w-full shadow-box_shadow max-sm:pb-5 pt-[100px]">
+ <section id="banner_section" class="bg-navy_blue min-h-screen w-full shadow-box_shadow pt-[100px] pb-5 overflow-x-hidden">
 
-   <div class="w-laptop mx-auto max-sm:w-[90%]">
+
+   <div class="">
     <div class="clock font-bold font-Montserrat ">
         <div id="time"></div>
     </div>
@@ -120,13 +121,19 @@
     
    </div>
  
-</section>
+</section> 
+
+
+
+
+
+
 
  <!-- banner section end -->
 
   <!-- about section start -->
 
-<section class=" about_section py-[100px]  bg-navy_blue" id="about">
+<section class=" about_section py-[100px]  bg-navy_blue " id="about">
     <div class="w-laptop mx-auto max-sm:w-[90%]">
         <div class="sm:flex justify-between items-center ">
             <div class=" sm:w-[400px] max-sm:flex max-sm:justify-center max-sm:items-center  "  data-aos="fade-right" >
@@ -163,7 +170,7 @@
 
 <!-- mouse move animation part start -->
 
-<div class="circle  ">
+<div class="circle  max-sm:hidden">
     <div class="dot "></div>
 </div>
 
