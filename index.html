@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="./src/slick.css">
     <link rel="stylesheet" href="./src/slick-theme.css">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./src/input.css">
+    <link rel="stylesheet" href="./src/output.css">
     <title>SamiulDev</title>
 
 </head>
@@ -78,17 +78,16 @@
 
  <!-- banner section start -->
 
- <section id="banner_section" class="bg-navy_blue min-h-screen w-full shadow-box_shadow pt-[100px] pb-5 overflow-x-hidden">
+ <section id="banner_section" class="bg-navy_blue  w-full shadow-box_shadow pt-[100px] pb-5 ">
 
-
-   <div class="">
+   <div class="sm:w-laptop max-sm:w-[90%] mx-auto">
     <div class="clock font-bold font-Montserrat ">
-        <div id="time"></div>
+        <div id="time" class="max-sm:hidden:"></div>
     </div>
     <div class="sm:flex justify-between items-center pt-0  " >
         <div class="sm:hidden my-3 flex justify-center items-center" data-aos="zoom-in-up" >
             <picture>
-                <img src="./img/my_img.png" alt="" >
+                <img src="./img/about_img_2.png" alt="my_img_about.png" >
             </picture>
         </div>
         <div class="text-light_gray sm:w-[500px]  max-sm:text-center "  data-aos="zoom-in-up">
@@ -138,7 +137,8 @@
         <div class="sm:flex justify-between items-center ">
             <div class=" sm:w-[400px] max-sm:flex max-sm:justify-center max-sm:items-center  "  data-aos="fade-right" >
                 <picture>
-                    <img class="w-[350px]" class="" src="./img/my_img_about.png" alt="" >
+                    <img class="w-[380px] max-sm:hidden"  src="./img/about_img_3.png" alt="" >
+                    <img class="w-[350px] sm:hidden" src="./img/about_img_2.png" alt="" >
                 </picture>
             </div>
             <div class="sm:w-[600px] sm:px-5" data-aos="fade-left" >
@@ -808,15 +808,15 @@
      -->
   <div class="flex justify-between items-center flex-wrap gap-8" data-aos="fade-right">
       
-    <div class="bg-white rounded-lg shadow-md overflow-hidden sm:w-[480px] sm:p-2  max-sm:p-2   transition-colors hover:duration-200 hover:delay-200">
-      <div class="bg-blog_img_1 py-[140px] bg-no-repeat sm:bg-center bg-cover rounded-lg max-sm:m-4"></div>
+    <div class="bg-white rounded-lg shadow-md overflow-hidden sm:w-[480px] sm:p-2  max-sm:p-2  ">
+      <div class="bg-blog_img_1 py-[140px] bg-no-repeat sm:bg-center bg-cover rounded-lg max-sm:m-4 hover:scale-110 hover:transition-all hover:duration-200 hover:delay-200"></div>
       <div class="p-6">
         <h3 class="text-xl font-semibold text-gray-900 max-sm: max-sm:text-center mb-2">Tech and Web Development Blog</h3>
         <p class="text-gray-600  max-sm:text-center max-sm:text-[14px]">"Stay ahead of the curve with the latest trends, tips, and tutorials in web development and technology. Whether you're a seasoned developer or just starting, our blog offers insights, guides, and practical advice to help you build better, faster, and smarter. Join us as we explore the cutting edge of tech."</p>
         <a href="#" class="sm:mt-6 sm:inline-block text-center text-gold hover:text-indigo-400 font-medium max-sm:flex max-sm:justify-center max-sm:mt-2">Read More &rarr;</a>
       </div>
     </div>
-    <div class="bg-white rounded-lg shadow-md overflow-hidden sm:w-[480px] sm:p-2  max-sm:p-2   transition-colors hover:duration-200 hover:delay-200">
+    <div class="bg-white rounded-lg shadow-md overflow-hidden sm:w-[480px] sm:p-2  max-sm:p-2   ">
       <div class="bg-blog_img_2 py-[140px] bg-no-repeat sm:bg-center bg-cover rounded-lg max-sm:m-4"></div>
       <div class="p-6">
         <h3 class="text-xl font-semibold text-gray-900 max-sm: max-sm:text-center mb-2">Design and Creativity Blog</h3>
@@ -824,7 +824,7 @@
         <a href="#" class="sm:mt-6 sm:inline-block text-center text-gold hover:text-indigo-400 font-medium max-sm:flex max-sm:justify-center max-sm:mt-2">Read More &rarr;</a>
       </div>
     </div>
-    <div class="bg-white rounded-lg shadow-md overflow-hidden sm:w-[480px] sm:p-2  max-sm:p-2   transition-colors hover:duration-200 hover:delay-200">
+    <div class="bg-white rounded-lg shadow-md overflow-hidden sm:w-[480px] sm:p-2  max-sm:p-2   ">
       <div class="bg-blog_img_3 py-[140px] bg-no-repeat sm:bg-center bg-cover rounded-lg max-sm:m-4"></div>
       <div class="p-6">
         <h3 class="text-xl font-semibold text-gray-900 max-sm: max-sm:text-center mb-2">Personal Development and Productivity Blog</h3>
@@ -832,7 +832,7 @@
         <a href="#" class="sm:mt-6 sm:inline-block text-center text-gold hover:text-indigo-400 font-medium max-sm:flex max-sm:justify-center max-sm:mt-2">Read More &rarr;</a>
       </div>
     </div>
-    <div class="bg-white rounded-lg shadow-md overflow-hidden sm:w-[480px] sm:p-2  max-sm:p-2   transition-colors hover:duration-200 hover:delay-200">
+    <div class="bg-white rounded-lg shadow-md overflow-hidden sm:w-[480px] sm:p-2  max-sm:p-2  ">
       <div class="bg-blog_img_5 py-[140px] bg-no-repeat sm:bg-center bg-cover rounded-lg max-sm:m-4"></div>
       <div class="p-6">
         <h3 class="text-xl font-semibold text-gray-900 max-sm: max-sm:text-center mb-2">Lifestyle and Wellness Blog</h3>
@@ -848,7 +848,94 @@
   </div>
 </section>
 
-<!-- blog part end -->
+<section id="contact" class="bg-navy_blue py-12 px-6 sm:px-12">
+  <div class="sm:w-laptop max-sm:w-[90%] mx-auto">
+    <h2 class="text-4xl text-white font-bold mb-8 text-center">Contact Me</h2>
+      <div class="flex justify-between items-start">
+        <form id="contactForm" class="space-y-6 w-[600px]" novalidate>
+          <div class="grid grid-cols-2 sm:grid-cols-2 gap-6">
+            <div>
+              <label for="fastName" class="block text-white text-sm font-medium">Fast Name:</label>
+              <input type="text" id="fastName" name="fastName" class="mt-1 block w-full bg-white text-black  rounded-sm p-2"  />
+            </div>
+            <div>
+              <label for="lastName" class="block text-white text-sm font-medium">Last Name:</label>
+              <input type="text" id="lastName" name="lastName" class="mt-1 block w-full bg-white text-black  rounded-sm p-2"  />
+            </div>
+          </div>
+    
+          <div>
+            <label for="email" class="block text-white text-sm font-medium">Email:</label>
+            <input type="email" id="email" name="email" class="mt-1 block w-full bg-white text-black  rounded-sm p-2"  />
+          </div>
+    
+          <div>
+            <label for="message" class="block text-white text-sm font-medium">Message:</label>
+            <textarea id="message" name="message" class="mt-1 block w-full bg-white text-black  rounded-sm p-3 "></textarea>
+          </div>
+    
+          <div class="flex items-center">
+            <input type="checkbox" id="subscribe" name="subscribe" class="bg-white text-navy-blue border-none rounded-sm p-3 mr-2" />
+            <label for="subscribe" class="text-white text-sm">Subscribe to newsletter</label>
+          </div>
+    
+          <div>
+            <button type="submit" class="hover:bg-gold text-chareoal_gray w-full text-navy-blue font-semibold py-2 px-8 rounded-sm shadow bg-light_gray transition-colors duration-300">Submit</button> 
+
+  </div>
+</form>
+        <div class="mt-5 rounded-lg">
+          
+          <div id="map" class="w-full h-64"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.49929790344!2d90.25487016620683!3d23.781067241407346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1724826185686!5m2!1sen!2sbd" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </div>
+      </div>
+   
+  </div>
+
+  
+</section>
+
+
+
+
+
+
+<footer class="bg-gray-900 text-white py-8">
+  <div class="max-w-6xl mx-auto px-6 sm:px-12">
+    <div class="flex flex-col sm:flex-row justify-between items-center">
+      <!-- Footer Logo/Name -->
+      <div class="mb-6 sm:mb-0">
+        <h2 class="text-3xl font-bold">Samiul's Portfolio</h2>
+      </div>
+      
+      <!-- Navigation Links -->
+      <div class="flex flex-col sm:flex-row gap-6 mb-6 sm:mb-0">
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#portfolio" class="hover:underline">Portfolio</a>
+        <a href="#experience" class="hover:underline">Experience</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </div>
+      
+      <!-- Social Media Links -->
+      <div class="flex gap-4">
+        <a href="https://linkedin.com/in/your-profile" target="_blank" class="hover:text-gray-400">
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M3 0C1.34 0 0 1.34 0 3s1.34 3 3 3 3-1.34 3-3S4.66 0 3 0zm0 4.5C2.07 4.5 1.5 3.93 1.5 3S2.07 1.5 3 1.5 4.5 2.07 4.5 3 3.93 4.5 3 4.5zM0 7.5h6v15H0V7.5zm21.5 0h-6v2.7h-.03c-.84-1.56-2.92-2.7-5.47-2.7-5.6 0-6.74 3.1-6.74 7.14V22.5h6V14.4c0-1.28.02-3.02 1.77-3.02 1.74 0 2.01 1.35 2.01 3.04v8.08h6v-8.08c0-4.67-1.28-7.14-4.29-7.14z"/></svg>
+        </a>
+        <a href="https://github.com/your-profile" target="_blank" class="hover:text-gray-400">
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.5c-5.8 0-10.5 4.7-10.5 10.5 0 4.7 3 8.7 7.1 10.1.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.4-3.4-1.4-.4-1-.9-1.3-.9-1.3-.8-.5 0-.5 0-.5 0 .5.6.9.9.9 1.3 1.5 1.5 2.8 1.3 3.5 1 .1-.7.5-1.3.9-1.6-2.3-.3-4.6-1.1-4.6-4.6 0-1 1.1-1.5 1.7-1.6-.1-.2-.7-.9.1-1.8 0 0 1.6-.5 2.6 1.1 1.4-.4 2.9-.4 4.3.1 1.1-.5 1.6-1.4 1.7-1.7-.4-.3-.9-.5-1.5-.7.4-.2.8-.5 1.1-.9.2-.3.2-.6.2-1 0-2.5-2-4.5-4.5-4.5z"/></svg>
+        </a>
+        <a href="https://twitter.com/your-profile" target="_blank" class="hover:text-gray-400">
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M23.1 4.3c-.8.3-1.6.5-2.5.6.9-.5 1.6-1.3 2-2.2-.9.5-1.8.8-2.8 1-1-.9-2.4-1.4-3.8-1.4-2.8 0-5.1 2.3-5.1 5.1 0 .4 0 .8.1 1.2-4.3-.2-8.1-2.3-10.7-5.5-.4.7-.6 1.5-.6 2.4 0 1.6.8 3.1 2 3.9-.7 0-1.4-.2-2-.5v.1c0 2.4 1.7 4.5 4 5-.4.1-.8.2-1.2.2-.3 0-.7-.1-1-.2.7 2.2 2.6 3.7 4.9 3.7 5.9 0 9.1-4.8 9.1-9.1 0-.1 0-.2 0-.2.6-.5 1.1-1.1 1.5-1.8z"/></svg>
+        </a>
+      </div>
+    </div>
+    
+    <div class="text-center mt-6 border-t border-gray-700 pt-4">
+      <p>&copy; 2024 Samiul. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
 
 
 
@@ -858,6 +945,8 @@
 <script src="./src/slick.min.js"></script>
 
 <script src="./src/script.js"></script>
+
+
 </body>
 </html>
 

@@ -109,3 +109,67 @@ function showDiv(divId) {
   }, 10); // Timeout to allow the transition to work
 }
 
+// form validation
+
+document.getElementById('contactForm').addEventListener('submit', function (e) {
+  e.preventDefault();
+
+  let isValid = true;
+
+  const fields = {
+      fastName: document.getElementById('fastName'),
+      lastName: document.getElementById('lastName'),
+      email: document.getElementById('email'),
+      message: document.getElementById('message')
+  };
+
+  // Clear previous errors
+  Object.values(fields).forEach(field => {
+      field.classList.remove('border-red-500');
+      const errorElement = field.parentElement.querySelector('.error-message');
+      if (errorElement) errorElement.remove(); // Remove previous error messages
+  });
+
+  if (!fields.fastName.value.trim()) {
+      isValid = false;
+      addError(fields.fastName, "Fast Name is required");
+  }
+
+  if (!fields.lastName.value.trim()) {
+      isValid = false;
+      addError(fields.lastName, "Last Name is required");
+  }
+
+  const emailPattern = /^[^@]+@[^@]+\.[a-zA-Z]{2,}$/;
+  if (!emailPattern.test(fields.email.value.trim())) {
+      isValid = false;
+      addError(fields.email, "Please enter a valid email address");
+  }
+
+  if (!fields.message.value.trim()) {
+      isValid = false;
+      addError(fields.message, "Message is required");
+
+
+  }
+  if (!fields.subscribe.checked) {
+    isValid = false;
+    addError(fields.subscribe, "You must agree to the terms");
+}
+
+  if (isValid) {
+      alert("Form submitted successfully!");
+      document.getElementById('contactForm').reset(); // Clear the form
+  }
+});
+
+function addError(field, message) {
+  field.classList.add('border-red-500');
+  let errorElement = field.parentElement.querySelector('.error-message');
+  if (!errorElement) {
+      errorElement = document.createElement('p');
+      errorElement.classList.add('error-message', 'text-red-500', 'text-sm', 'mt-1');
+      field.parentElement.appendChild(errorElement);
+  }
+  errorElement.textContent = message;
+}
