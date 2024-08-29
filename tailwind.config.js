@@ -42,12 +42,18 @@ module.exports = {
       strokeAnimation: {
         '0%': { strokeDashoffset: '283' },
         '100%': { strokeDashoffset: '0' },
+        
       },
+
+     
+      
       plugins: [],
-    
     }
+   
   }
+ 
   }
+ 
 }
 
 

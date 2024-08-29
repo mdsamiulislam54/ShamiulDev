@@ -80,3 +80,26 @@
     letter-spacing: 5px;
 }
 
+.preloder{
+    border: 4px solid;
+    border-top: transparent;
+    animation: loder 1s linear infinite;
+}
+
+@keyframes loder{
+    25%{
+        color: tomato;
+    }
+    50%{
+        color: pink;
+    }
+    75%{
+        color: red;
+    }
+    100%{
+        color: orange;
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

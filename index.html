@@ -23,14 +23,20 @@
     <title>SamiulDev</title>
 
 </head>
-<body class=" font-Montserrat overflow-hidden  ">
+<body class=" font-Montserrat overflow-hidden relative z-50 ">
 <!-- navbar section start -->
+
+
+
+
+
 
 <section id="nav_bar_section " class="  bg-navy_blue fixed z-10 w-100 top-0 mx-auto  shadow-lg ">
 <div class="w-laptop mx-auto max-sm:w-[90%]">
     <nav class="flex   justify-between items-center sm:py-4 max-sm:w-[90%] ">
         <div class="logo ">
             <a href="#home"><img src="./img/logo.png" alt="" class="w-[90px] h-auto"> </a> 
+            
         </div>
         <div class="" >
             <ul class="sm:flex justify-between items-center max-sm:absolute top-[61px] left-0 max-sm:bg-gold max-sm:w-full max-sm:py-10   max-sm:duration-300 max-sm:delay-300 max-sm:transition-all hidden " id="menu_bar">
@@ -52,7 +58,7 @@
                   before:hover:bg-gold before:transition-all before:duration-200 before:delay-200   hover:text-gold transition-colors duration-200 delay-200 max-sm:mx-6 max-sm:my-10  max-sm:hover:before:hover:bg-chareoal_gray max-sm:hover:text-light_gray  " href="#blog_part">Blog</a></li>
 
                 <li class="max-sm:my-2"><a class="text-xl font-medium  lh-1 text-light_gray sm:mx-5 relative before:absolute before:content[''] before:w-0 before:h-[3px] before:bg-light_gray before:bottom-[-10px] before:left-0 hover:before:w-full before:rounded-r-lg
-                  before:hover:bg-gold before:transition-all before:duration-200 before:delay-200   hover:text-gold transition-colors duration-200 delay-200 max-sm:mx-6 max-sm:my-10  max-sm:hover:before:hover:bg-chareoal_gray max-sm:hover:text-light_gray   " href="#">Contact</a></li>
+                  before:hover:bg-gold before:transition-all before:duration-200 before:delay-200   hover:text-gold transition-colors duration-200 delay-200 max-sm:mx-6 max-sm:my-10  max-sm:hover:before:hover:bg-chareoal_gray max-sm:hover:text-light_gray   " href="#contact">Contact</a></li>
 
                    
                     <div class="sm:hidden mt-5">
@@ -62,7 +68,7 @@
             </ul>
         </div>
         <div class=" max-sm:hidden">
-            <a href="#" class="py-3 px-8 bg-gold  text-lg font-bold  rounded-lg hover:bg-navy_blue hover:text-light_gray text-navy_blue transition-colors duration-200 delay-200 ">Lets`Talk</a>
+            <a href="#" class="py-3 px-8 bg-gold  text-lg font-bold  rounded-lg hover:bg-light_gray  text-navy_blue transition-colors duration-200 delay-200 ">Lets`Talk</a>
         </div>
         <div class="sm:hidden  ">
             <i class="fa-solid fa-bars text-xl pr-2 cursor-pointer opacity-1 text-gold " id="menu_btn" ></i>
@@ -85,36 +91,52 @@
         <div id="time" class="max-sm:hidden:"></div>
     </div>
     <div class="sm:flex justify-between items-center pt-0  " >
-        <div class="sm:hidden my-3 flex justify-center items-center" data-aos="zoom-in-up" >
+        <div class="sm:hidden my-3 flex justify-center items-center relative" data-aos="zoom-in-up" >
             <picture>
-                <img src="./img/about_img_2.png" alt="my_img_about.png" >
+                <img src="./img/my_img.png" alt="my_img_about.png" >
             </picture>
+            <div class="absolute top-14 left-0 ">
+              <img src="./img/my_img_popup_img/science.png" alt="react.jpg" class="w-14 animate-bounce ">
+            </div>
+            <div class="absolute top-48 right-0 ">
+              <img src="./img/my_img_popup_img/js.png" alt="react.jpg" class="w-14 animate-bounce ">
+            </div>
+           
         </div>
         <div class="text-light_gray sm:w-[500px]  max-sm:text-center "  data-aos="zoom-in-up">
            
             <h2 class="font-roboto font-bold text-xl text-gold sm:my-2 max-sm:my-4 ">Hello , I`m</h2>
-            <h1 class=" font-medium text-4xl my-2 space-x-2 ">MD:Shamiul Islam</h1>
+            <h1 class=" font-medium text-4xl my-2 space-x-2 ">Md:Shamiul Islam</h1>
 
           
             <h3 class="sm:text-2xl  font-medium text-gold my-7 space-x-1"> <span class="text-light_gray ">A</span> <span id="typing-container"></span>  </h3>
             <p class="text-lg font-light lh-1 space-x-1 my-4 ">I'm creative designer based in Dhaka, Bangladesh, and I'm very passionate and dedicated to my work.</p>
            <div class=" flex max-sm:items-center max-sm:justify-center gap-4 mt-10">
-            <a href="#" class="py-1 sm:px-10 max-sm:px-2 bg-gold  text-lg font-bold  rounded-lg hover:bg-light_gray text-navy_blue transition-colors duration-200 delay-200 ">Abou Me</a>
+            <a href="#" class="py-1 sm:px-10 max-sm:px-2 bg-gold  text-lg font-bold  rounded-lg hover:bg-light_gray text-navy_blue transition-colors duration-200 delay-200 ">About Me</a>
             <ul class="flex items-center ">
-                <li><a href="https://www.facebook.com/mdsamiulislam2004" target="_blank"><img class="w-[35px] mr-2 sm:animate-bounce" src="./img/facebook.png" alt="facebook"></a></li>
-                <li><a href="https://x.com/samiul5490" target="_blank"><img class="w-[35px] mr-2 " src="./img/twitter.png" alt="twitter"></a></li>
-                <li><a href="#"><img class="w-[40px] mr-2 sm:animate-bounce" src="./img/linkedin.png" alt="linkedin"></a></li>
-                <li><a href="#" title="+880-1305-111-820"> <img class="w-[40px] mr-2 " src="./img/whatsapp.png" alt="whatsapp.png"></a></li>
-                <li><a href="https://github.com/mdsamiulislam54" target="_blank"> <img class="w-[40px] mr-2 sm:animate-bounce" src="./img/github.png" alt="youtube"></a></li>
+                <li><a href="https://www.facebook.com/mdsamiulislam2004" target="_blank"><img class="w-[35px] mr-2 sm:animate-spin hover:animate-none" src="./img/facebook.png" alt="facebook"></a></li>
+                <li><a href="https://x.com/samiul5490" target="_blank"><img class="w-[35px] mr-2 sm:animate-spin hover:animate-none " src="./img/twitter.png" alt="twitter"></a></li>
+                <li><a href="#"><img class="w-[40px] mr-2 sm:animate-spin hover:animate-none" src="./img/linkedin.png" alt="linkedin"></a></li>
+                <li><a href="#" title="+880-1305-111-820"> <img class="w-[40px] mr-2 sm:animate-spin hover:animate-none " src="./img/whatsapp.png" alt="whatsapp.png"></a></li>
+                <li><a href="https://github.com/mdsamiulislam54" target="_blank"> <img class="w-[40px] mr-2 sm:animate-spin hover:animate-none" src="./img/github.png" alt="youtube"></a></li>
             </ul>
            
            </div>
          
         </div>
-        <div class="max-sm:hidden ">
+        <div class="max-sm:hidden relative">
             <picture>
                 <img src="./img/my_img.png" alt="">
             </picture>
+            <div class="absolute top-14 left-12 ">
+              <img src="./img/my_img_popup_img/science.png" alt="react.jpg" class="w-14 animate-bounce ">
+            </div>
+            <div class="absolute top-48 right-4 ">
+              <img src="./img/my_img_popup_img/js.png" alt="react.jpg" class="w-14 animate-bounce ">
+            </div>
+            <div class="absolute bottom-14 left-12 ">
+              <img src="./img/my_img_popup_img/css-3.png" alt="react.jpg" class="w-14 animate-bounce ">
+            </div>
         </div>
     </div>
     
@@ -135,15 +157,25 @@
 <section class=" about_section py-[100px]  bg-navy_blue " id="about">
     <div class="w-laptop mx-auto max-sm:w-[90%]">
         <div class="sm:flex justify-between items-center ">
-            <div class=" sm:w-[400px] max-sm:flex max-sm:justify-center max-sm:items-center  "  data-aos="fade-right" >
+            <div class=" sm:w-[400px] max-sm:flex max-sm:justify-center max-sm:items-center relative  "  data-aos="fade-right" >
                 <picture>
                     <img class="w-[380px] max-sm:hidden"  src="./img/about_img_3.png" alt="" >
                     <img class="w-[350px] sm:hidden" src="./img/about_img_2.png" alt="" >
                 </picture>
+                <!-- images poppup message show start -->
+                <div id="popup_meassage " class="absolute top-[80px] left-[-10px] sm:w-34 sm:h-14 max-sm:w-[130px] max-sm:h-[45px]   bg-white rounded-lg animate-bounce ">
+                  <h3 class="text-center font-bold font-Montserrat sm:text-sm text-chareoal_gray sm:px-3 flex justify-center items-center gap-2 sm:mt-1.5 max-sm:mt-1 max-sm:text-[10px]"><span class="sm:text-3xl text-center max-sm:text-[16px] text-gold ">2K</span> Total <br>Projects</h3>
+                 
+                </div>
+                <div id="popup_meassage " class="absolute bottom-[40px] right-[-20px] sm:w-34 sm:h-14 max-sm:w-[130px] max-sm:h-[45px] bg-white  rounded-lg animate-bounce ">
+                  <h3 class="text-center font-bold font-Montserrat text-sm text-chareoal_gray sm:px-3 flex justify-center items-center gap-2 sm:mt-1 max-sm:mt-0 max-sm:text-[10px]"><span class="sm:text-3xl text-center max-sm:text-[16px] text-gold">5+</span> Years of <br>experience</h3>
+                </div>
+                <!-- images poppup message show start -->
+                
             </div>
             <div class="sm:w-[600px] sm:px-5" data-aos="fade-left" >
                 <h2 class="text-lg font-medium text- space-x-2 max-sm:text-center max-sm:text-2xl max-sm:py-4 text-light_gray">About Me</h2>
-                <p class="font-light font-roboto space-x-3  leading-tight py-5 lh-lg text-light_gray max-sm:text-center sm:pl-5 ">Hi there! I’m md shamiul islam, a passionate web designer with a knack for creating visually stunning and user-friendly websites. With a background in professional web developer, I’ve honed my skills in both design and development, blending aesthetics with functionality to deliver exceptional digital experiences.</p>
+                <p class="font-light text-sm font-Montserrat space-x-3  leading-tight py-5  text-light_gray max-sm:text-center  ">Hi there! I’m md shamiul islam, a passionate web designer with a knack for creating visually stunning and user-friendly websites. With a background in professional web developer, I’ve honed my skills in both design and development, blending aesthetics with functionality to deliver exceptional digital experiences.</p>
                 <p class="text-lg font-medium text- space-x-2  max-sm:text-2xl max-sm:py-4 text-light_gray">I specialize in:</p>
                 <ul class="pl-5">
                     <li class="list-disc font-light text-sm py-1 text-light_gray"><span class="font-medium text-light_gray ">User-Centered Design:</span> Crafting websites that not only look great but are also intuitive and accessible.</li>
@@ -850,23 +882,62 @@
 
 <section id="contact" class="bg-navy_blue py-12 px-6 sm:px-12">
   <div class="sm:w-laptop max-sm:w-[90%] mx-auto">
-    <h2 class="text-4xl text-white font-bold mb-8 text-center">Contact Me</h2>
-      <div class="flex justify-between items-start">
-        <form id="contactForm" class="space-y-6 w-[600px]" novalidate>
-          <div class="grid grid-cols-2 sm:grid-cols-2 gap-6">
-            <div>
-              <label for="fastName" class="block text-white text-sm font-medium">Fast Name:</label>
-              <input type="text" id="fastName" name="fastName" class="mt-1 block w-full bg-white text-black  rounded-sm p-2"  />
+    <h2 class="text-4xl text-white font-bold mb-8 text-center" data-aos="zoom-in">Contact Me</h2>
+      <div class="sm:flex sm:justify-between sm:items-start max-sm:text-center">
+        <div class="" data-aos="fade-right">
+          <div class="sm:flex justify-start items-center gap-5 mb-8">
+            <div class="max-sm:flex max-sm:justify-center max-sm:items-center">
+              <img src="./img/contact_img/location.png" alt="location.png" class="w-10 max-sm:mb-4">
             </div>
             <div>
+              <h2 class="text-light_gray font-normal text-xl font-Montserrat ">Adress :</h2>
+              <h3 class="text-light_gray font-light text-xs leading-3 space-x-4 "> Munshirhat Rd, Munshiganj 1500</h3>
+            </div>
+          </div>
+          <div class="sm:flex justify-start items-center gap-5 mb-8">
+            <div class="max-sm:flex max-sm:justify-center max-sm:items-center">
+              <img src="./img/contact_img/mail.png" alt="mail.png" class="w-10 max-sm:mb-4">
+            </div>
+            <div>
+              <h2 class="text-light_gray font-normal text-xl font-Montserrat ">Email :</h2>
+             
+              <a href="#" class="text-light_gray font-light text-xs leading-3 space-x-4">samiulm5332@gmail.com</a>
+            </div>
+          </div>
+          <div class="sm:flex justify-start items-center gap-5 mb-8">
+            <div class="max-sm:flex max-sm:justify-center max-sm:items-center">
+              <img src="./img/contact_img/telephone.png" alt="telephone.png" class="w-10 max-sm:mb-4">
+            </div>
+            <div>
+              <h2 class="text-light_gray font-normal text-xl font-Montserrat ">Phone Call :</h2>
+              <a href="#" class="text-light_gray font-light text-xs leading-3 space-x-4">Phone: +880-1612-0868-42</a>
+            </div>
+          </div>
+          <div class="sm:flex justify-start items-center gap-5 mb-8">
+            <div class="max-sm:flex max-sm:justify-center max-sm:items-center">
+              <img src="./img/contact_img/social.png" alt="location.png" class="w-12 max-sm:mb-4">
+            </div>
+            <div>
+              <h2 class="text-light_gray font-normal text-xl font-Montserrat ">Whatsapps :</h2>
+              <a href="#" class="text-light_gray font-light text-xs leading-3 space-x-4">whatsapps: +880-13-05-111-820</a>
+            </div>
+          </div>
+        </div>
+        <form id="contactForm" class="space-y-3 sm:w-[500px] sm:mr-5" novalidate data-aos="fade-left">
+          <div class="grid  grid-cols-2 gap-4">
+            <div >
+              <label for="fastName" class="block text-white text-sm font-medium">Fast Name:</label>
+              <input type="text" id="fastName" name="fastName" placeholder="Enter Your Fast Name" class="mt-1 block w-full bg-white text-black  rounded-sm p-2 max-sm:text-[10px]"  />
+            </div>
+            <div >
               <label for="lastName" class="block text-white text-sm font-medium">Last Name:</label>
-              <input type="text" id="lastName" name="lastName" class="mt-1 block w-full bg-white text-black  rounded-sm p-2"  />
+              <input type="text" id="lastName" name="lastName" placeholder="Enter Your Last Name" class="mt-1 block w-full bg-white text-black  rounded-sm p-2 max-sm:text-[10px]"  />
             </div>
           </div>
     
           <div>
             <label for="email" class="block text-white text-sm font-medium">Email:</label>
-            <input type="email" id="email" name="email" class="mt-1 block w-full bg-white text-black  rounded-sm p-2"  />
+            <input type="email" id="email" name="email" placeholder="Enter Your Valid Email" class="mt-1 block w-full bg-white text-black  rounded-sm p-2  max-sm:text-[10px]"  />
           </div>
     
           <div>
@@ -875,23 +946,20 @@
           </div>
     
           <div class="flex items-center">
-            <input type="checkbox" id="subscribe" name="subscribe" class="bg-white text-navy-blue border-none rounded-sm p-3 mr-2" />
+            <input type="checkbox" id="subscribe" name="subscribe"  class="bg-white text-navy-blue border-none rounded-sm p-3 mr-2" />
             <label for="subscribe" class="text-white text-sm">Subscribe to newsletter</label>
           </div>
     
           <div>
             <button type="submit" class="hover:bg-gold text-chareoal_gray w-full text-navy-blue font-semibold py-2 px-8 rounded-sm shadow bg-light_gray transition-colors duration-300">Submit</button> 
 
-  </div>
-</form>
-        <div class="mt-5 rounded-lg">
-          
-          <div id="map" class="w-full h-64"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.49929790344!2d90.25487016620683!3d23.781067241407346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1724826185686!5m2!1sen!2sbd" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-        </div>
+    </div>
+        </form>
       </div>
-   
-  </div>
-
+<div class="mt-5 rounded-lg"  data-aos="zoom-in">
+  <iframe class="max-sm-w-[300px] w-full h-[200px] rounded-lg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29262.987517882913!2d90.52368846911267!3d23.537053983505917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755adc8fbfb1c43%3A0xbc919f85d4a57c8a!2z4Kau4KeB4Kao4KeN4Ka44KeA4Kaw4Ka54Ka-4KafIOCmrOCmvuCmnOCmvuCmsA!5e0!3m2!1sen!2sbd!4v1724929889538!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
+</div>
   
 </section>
 
@@ -900,41 +968,17 @@
 
 
 
-<footer class="bg-gray-900 text-white py-8">
-  <div class="max-w-6xl mx-auto px-6 sm:px-12">
-    <div class="flex flex-col sm:flex-row justify-between items-center">
-      <!-- Footer Logo/Name -->
-      <div class="mb-6 sm:mb-0">
-        <h2 class="text-3xl font-bold">Samiul's Portfolio</h2>
-      </div>
-      
-      <!-- Navigation Links -->
-      <div class="flex flex-col sm:flex-row gap-6 mb-6 sm:mb-0">
-        <a href="#about" class="hover:underline">About</a>
-        <a href="#portfolio" class="hover:underline">Portfolio</a>
-        <a href="#experience" class="hover:underline">Experience</a>
-        <a href="#contact" class="hover:underline">Contact</a>
-      </div>
-      
-      <!-- Social Media Links -->
-      <div class="flex gap-4">
-        <a href="https://linkedin.com/in/your-profile" target="_blank" class="hover:text-gray-400">
-          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M3 0C1.34 0 0 1.34 0 3s1.34 3 3 3 3-1.34 3-3S4.66 0 3 0zm0 4.5C2.07 4.5 1.5 3.93 1.5 3S2.07 1.5 3 1.5 4.5 2.07 4.5 3 3.93 4.5 3 4.5zM0 7.5h6v15H0V7.5zm21.5 0h-6v2.7h-.03c-.84-1.56-2.92-2.7-5.47-2.7-5.6 0-6.74 3.1-6.74 7.14V22.5h6V14.4c0-1.28.02-3.02 1.77-3.02 1.74 0 2.01 1.35 2.01 3.04v8.08h6v-8.08c0-4.67-1.28-7.14-4.29-7.14z"/></svg>
-        </a>
-        <a href="https://github.com/your-profile" target="_blank" class="hover:text-gray-400">
-          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.5c-5.8 0-10.5 4.7-10.5 10.5 0 4.7 3 8.7 7.1 10.1.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.4-3.4-1.4-.4-1-.9-1.3-.9-1.3-.8-.5 0-.5 0-.5 0 .5.6.9.9.9 1.3 1.5 1.5 2.8 1.3 3.5 1 .1-.7.5-1.3.9-1.6-2.3-.3-4.6-1.1-4.6-4.6 0-1 1.1-1.5 1.7-1.6-.1-.2-.7-.9.1-1.8 0 0 1.6-.5 2.6 1.1 1.4-.4 2.9-.4 4.3.1 1.1-.5 1.6-1.4 1.7-1.7-.4-.3-.9-.5-1.5-.7.4-.2.8-.5 1.1-.9.2-.3.2-.6.2-1 0-2.5-2-4.5-4.5-4.5z"/></svg>
-        </a>
-        <a href="https://twitter.com/your-profile" target="_blank" class="hover:text-gray-400">
-          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M23.1 4.3c-.8.3-1.6.5-2.5.6.9-.5 1.6-1.3 2-2.2-.9.5-1.8.8-2.8 1-1-.9-2.4-1.4-3.8-1.4-2.8 0-5.1 2.3-5.1 5.1 0 .4 0 .8.1 1.2-4.3-.2-8.1-2.3-10.7-5.5-.4.7-.6 1.5-.6 2.4 0 1.6.8 3.1 2 3.9-.7 0-1.4-.2-2-.5v.1c0 2.4 1.7 4.5 4 5-.4.1-.8.2-1.2.2-.3 0-.7-.1-1-.2.7 2.2 2.6 3.7 4.9 3.7 5.9 0 9.1-4.8 9.1-9.1 0-.1 0-.2 0-.2.6-.5 1.1-1.1 1.5-1.8z"/></svg>
-        </a>
-      </div>
-    </div>
-    
-    <div class="text-center mt-6 border-t border-gray-700 pt-4">
-      <p>&copy; 2024 Samiul. All rights reserved.</p>
-    </div>
+<footer>
+  <div class="text-center  border-t-sky-400 bg-light_gray py-4">
+    <p>&copy; 2024 Samiul. All rights reserved.</p>
   </div>
+ 
 </footer>
+<!-- preloder -->
+<div class=" preloder_main bg-black w-[100%] h-[100%] absolute top-0 left-0 z-40 overflow-y-hidden  " >
+  <div class=" preloder flex justify-center items-center w-8 h-8 rounded-full   top-[250px] left-[48%] absolute"></div>
+</div>
+<!-- preloder -->
 
 
 

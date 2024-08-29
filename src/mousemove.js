@@ -173,3 +173,8 @@ function addError(field, message) {
   }
   errorElement.textContent = message;
 }
+
+// prelodaer
+$(window).on("load",function(){
+  $(".preloder_main").fadeOut(6000)
+})
